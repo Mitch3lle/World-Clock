@@ -49,6 +49,6 @@ parisTimeElement.innerHTML = parisTime.format("h:mm:ss[<small>]A[</small>]");
 
   updateTime();
   setInterval(updateTime, 1000);
-  
+
   let citiesSelectElement = document.querySelector("#city");
   citiesSelectElement.addEventListener("change", updateCity);
