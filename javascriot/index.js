@@ -43,6 +43,7 @@ parisTimeElement.innerHTML = parisTime.format("h:mm:ss[<small>]A[</small>]");
       "A"
     )}</small></div>
     </div>
+    <a href ="/">All Cities </a>
     `;
   }
 
